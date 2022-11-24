@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, serif;
+}
+
+#content{
+    padding: 5px;
+    margin: 10px;
+}
+
+#content p{
+    text-align: center;
+    border: 1px dotted black;
+    border-radius: 5px;
+    margin: 10px 0x 10px 0;
+}
+
+.btn{
+    background: linear-gradient(25deg, #cc0000 50%, white 50%);
+    border: #cc0000 1px solid;
+    color: black;
+    padding: 13px 26px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: linear-gradient(25deg, #aa0000 50%, white 50%);
+    color: black;
+    border: #aa0000 1px solid;
+}
+
+img {
+    width: inherit;
+}
+
+a:hover {
+    background-color: blue;
+    color: yellow;
+    border-radius: 2px;
+}
